@@ -11,6 +11,9 @@
 		DE245646B91711786B717F36 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DE245F04BB9B16D66A4C7D3F /* .gitignore */; };
 		E7181B63286F557C00AF6C20 /* + color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7181B62286F557C00AF6C20 /* + color.swift */; };
 		E7611CF728719472008813A2 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7611CF628719472008813A2 /* Network.swift */; };
+		E7611D022871ACCF008813A2 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7611D012871ACCF008813A2 /* Poppins-Black.ttf */; };
+		E7611D072871AD77008813A2 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7611D062871AD77008813A2 /* Poppins-Medium.ttf */; };
+		E7611D092871ADD0008813A2 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7611D082871ADD0008813A2 /* Poppins-SemiBold.ttf */; };
 		E7E8A52D286CCE0000D8AD09 /* hackpointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8A52C286CCE0000D8AD09 /* hackpointApp.swift */; };
 		E7E8A52F286CCE0000D8AD09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8A52E286CCE0000D8AD09 /* ContentView.swift */; };
 		E7E8A531286CCE0300D8AD09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E8A530286CCE0300D8AD09 /* Assets.xcassets */; };
@@ -25,6 +28,9 @@
 		DE245F04BB9B16D66A4C7D3F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		E7181B62286F557C00AF6C20 /* + color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+ color.swift"; sourceTree = "<group>"; };
 		E7611CF628719472008813A2 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E7611D012871ACCF008813A2 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		E7611D062871AD77008813A2 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		E7611D082871ADD0008813A2 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		E7E8A529286CCE0000D8AD09 /* hackpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E8A52C286CCE0000D8AD09 /* hackpointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackpointApp.swift; sourceTree = "<group>"; };
 		E7E8A52E286CCE0000D8AD09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +113,9 @@
 			children = (
 				E7E8A52E286CCE0000D8AD09 /* ContentView.swift */,
 				E7E8A53E286CCFB000D8AD09 /* TeamRow.swift */,
+				E7611D082871ADD0008813A2 /* Poppins-SemiBold.ttf */,
+				E7611D012871ACCF008813A2 /* Poppins-Black.ttf */,
+				E7611D062871AD77008813A2 /* Poppins-Medium.ttf */,
 				E7E8A540286CD23000D8AD09 /* TeamList.swift */,
 			);
 			path = views;
@@ -170,9 +179,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7611D022871ACCF008813A2 /* Poppins-Black.ttf in Resources */,
 				E7E8A534286CCE0300D8AD09 /* Preview Assets.xcassets in Resources */,
 				E7E8A531286CCE0300D8AD09 /* Assets.xcassets in Resources */,
+				E7611D092871ADD0008813A2 /* Poppins-SemiBold.ttf in Resources */,
 				DE245646B91711786B717F36 /* .gitignore in Resources */,
+				E7611D072871AD77008813A2 /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

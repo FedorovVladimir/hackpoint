@@ -17,16 +17,16 @@ struct TeamList: View {
                     Text("Команды")
                             .padding(.top, 20)
                             .listRowBackground(Color.clear)
-                            .font(.custom("Poppins", size: 40))
+                            .font(.custom("Poppins-SemiBold", fixedSize: 40))
                     Text("Выберите команду для оценки")
                             .padding(.bottom, 10)
                             .listRowBackground(Color.clear)
                             .foregroundColor(Color.init("#696974"))
-                            .font(.custom("Poppins", size: 16))
+                            .font(.custom("Roboto", size: 16))
                     ForEach(teams, id: \.id) { team in
                         TeamRow(team: team)
                                 .listRowBackground(Color.clear)
-                                .padding(.bottom, 40)
+                                .padding(.bottom, 50)
                     }
                 }
                         .listSectionSeparator(.hidden)

@@ -14,12 +14,11 @@ struct TeamRow: View {
         GeometryReader { geo in
             HStack(spacing: 0.0) {
                 Text(team.name)
-                        .font(.custom("Poppins-Medium", size: 16))
                         .frame(
                                 width: geo.size.width - 40,
                                 alignment: .leading)
                         .padding(.horizontal, 20)
-
+                        .font(.custom("Poppins-SemiBold", fixedSize: 20))
             }
                     .padding(.vertical)
                     .background(.white)
