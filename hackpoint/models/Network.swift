@@ -12,7 +12,7 @@ class NetworkTestServer: ObservableObject {
     @Published var teams: [Team] = []
 
     func getTeams() -> [Team] {
-        return teams
+        teams
     }
 
     func loadTeams() {
