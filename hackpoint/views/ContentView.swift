@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var network: NetworkTestServer
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TeamList(teams: network.teams)
+                .environmentObject(network)
+                .onAppear {
+                    network.loadTeams()
+                }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(NetworkTestServer())
     }
 }

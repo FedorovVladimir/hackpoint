@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE24529F8BFD4B26AC173CEE /* TeamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24534B77C121954F032EDC /* TeamData.swift */; };
 		DE245646B91711786B717F36 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DE245F04BB9B16D66A4C7D3F /* .gitignore */; };
+		E7181B63286F557C00AF6C20 /* + color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7181B62286F557C00AF6C20 /* + color.swift */; };
+		E7611CF728719472008813A2 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7611CF628719472008813A2 /* Network.swift */; };
 		E7E8A52D286CCE0000D8AD09 /* hackpointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8A52C286CCE0000D8AD09 /* hackpointApp.swift */; };
 		E7E8A52F286CCE0000D8AD09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8A52E286CCE0000D8AD09 /* ContentView.swift */; };
 		E7E8A531286CCE0300D8AD09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E8A530286CCE0300D8AD09 /* Assets.xcassets */; };
@@ -15,11 +18,13 @@
 		E7E8A53B286CCE8D00D8AD09 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8A53A286CCE8D00D8AD09 /* Team.swift */; };
 		E7E8A53F286CCFB000D8AD09 /* TeamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8A53E286CCFB000D8AD09 /* TeamRow.swift */; };
 		E7E8A541286CD23000D8AD09 /* TeamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8A540286CD23000D8AD09 /* TeamList.swift */; };
-		E7E8A543286CD2CD00D8AD09 /* TeamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8A542286CD2CD00D8AD09 /* TeamData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE24534B77C121954F032EDC /* TeamData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamData.swift; sourceTree = "<group>"; };
 		DE245F04BB9B16D66A4C7D3F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		E7181B62286F557C00AF6C20 /* + color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+ color.swift"; sourceTree = "<group>"; };
+		E7611CF628719472008813A2 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		E7E8A529286CCE0000D8AD09 /* hackpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E8A52C286CCE0000D8AD09 /* hackpointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackpointApp.swift; sourceTree = "<group>"; };
 		E7E8A52E286CCE0000D8AD09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,7 +33,6 @@
 		E7E8A53A286CCE8D00D8AD09 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		E7E8A53E286CCFB000D8AD09 /* TeamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRow.swift; sourceTree = "<group>"; };
 		E7E8A540286CD23000D8AD09 /* TeamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamList.swift; sourceTree = "<group>"; };
-		E7E8A542286CD2CD00D8AD09 /* TeamData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E7181B61286F550600AF6C20 /* extentions */ = {
+			isa = PBXGroup;
+			children = (
+				E7181B62286F557C00AF6C20 /* + color.swift */,
+			);
+			path = extentions;
+			sourceTree = "<group>";
+		};
 		E7E8A520286CCE0000D8AD09 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +74,7 @@
 		E7E8A52B286CCE0000D8AD09 /* hackpoint */ = {
 			isa = PBXGroup;
 			children = (
+				E7181B61286F550600AF6C20 /* extentions */,
 				E7E8A53D286CCF1B00D8AD09 /* views */,
 				E7E8A53C286CCF0100D8AD09 /* models */,
 				E7E8A52C286CCE0000D8AD09 /* hackpointApp.swift */,
@@ -83,7 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				E7E8A53A286CCE8D00D8AD09 /* Team.swift */,
-				E7E8A542286CD2CD00D8AD09 /* TeamData.swift */,
+				E7611CF628719472008813A2 /* Network.swift */,
+				DE24534B77C121954F032EDC /* TeamData.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -171,10 +185,12 @@
 			files = (
 				E7E8A541286CD23000D8AD09 /* TeamList.swift in Sources */,
 				E7E8A52F286CCE0000D8AD09 /* ContentView.swift in Sources */,
+				E7611CF728719472008813A2 /* Network.swift in Sources */,
 				E7E8A52D286CCE0000D8AD09 /* hackpointApp.swift in Sources */,
 				E7E8A53B286CCE8D00D8AD09 /* Team.swift in Sources */,
-				E7E8A543286CD2CD00D8AD09 /* TeamData.swift in Sources */,
+				E7181B63286F557C00AF6C20 /* + color.swift in Sources */,
 				E7E8A53F286CCFB000D8AD09 /* TeamRow.swift in Sources */,
+				DE24529F8BFD4B26AC173CEE /* TeamData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +321,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"hackpoint/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hackpoint/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -333,6 +350,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"hackpoint/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hackpoint/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

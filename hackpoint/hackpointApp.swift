@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct hackpointApp: App {
+    var network = NetworkTestServer()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                    .environmentObject(network)
         }
     }
 }
