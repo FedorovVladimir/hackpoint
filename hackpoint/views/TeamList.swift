@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct TeamList: View {
+    @EnvironmentObject var network: NetworkTestServer
+
     var teams: [Team]
 
     var body: some View {
@@ -33,6 +35,7 @@ struct TeamList: View {
                         .listRowSeparator(.hidden)
             }
                     .listStyle(PlainListStyle())
+                    .refreshable { network.loadTeams() }
         }
                 .background(Color.init("#f3f3f3"))
     }
